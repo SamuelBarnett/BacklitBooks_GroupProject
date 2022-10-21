@@ -1,0 +1,54 @@
+@import "reset.css";
+
+:root{
+    font-size: 16px;
+    --Background-header: #380c0c;
+    --Background-nav: white;
+    --text-color-nav: white;
+}
+
+#header{
+display: flex;
+align-items: center; 
+/* background-color: ; */
+border-bottom: solid 0.15em;
+justify-content: space-around;
+/* padding: 0rem 5rem; */
+background-color: var(--Background-header); 
+color: var(--text-color-nav)
+
+}
+/* Title`````````````````````````` */
+#header h1{
+    font-weight: 600;
+    padding-right: 1rem;
+    font-size: 2rem;
+    border-radius: 1em;
+    
+}
+#title{
+    display: flex;
+    align-items: center;
+}
+/* /Title`````````````````````````` */
+
+.nav label{
+    margin: 0em 1em;
+    padding-right: 1rem;
+    border-right: solid 0.05em var(--text-color-nav);
+    font-size: 1.15rem;
+}
+
+.nav{
+    padding-right: 1rem;
+    padding: 1rem;
+    /* border: solid 0.05em rgb(82, 45, 3); */
+    border-radius: 1em;
+    display: flex;
+    max-width: 30rem;
+    /* text-align: right; */
+}
+#loginAndReg{
+    background-color: var(--Background-nav);
+    color: var(--Background-header);
+}
