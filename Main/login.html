@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/53a095ce36.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login page</title>
+  </head>
+
+  <body>
+    <!-- <div class="flex"> -->
+    <main id="LoginMain">
+      <form method="post">
+        <div id="centerContent">
+          <h2 id="loginTitle">Login</h2>
+          <div>
+            <!-- Input for user to put their username -->
+            <label for="username">Username</label>
+            <div class="iconInput">
+              <span><i class="fa-solid fa-user"></i></span>
+              <input
+                id="username"
+                name="username"
+                type="text"
+                class="input1"
+                placeholder="Enter your username"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <div class="iconInput">
+              <span><i class="fa-solid fa-lock"></i></span>
+              <input
+                id="password"
+                name="password"
+                type="password"
+                class="input1"
+                placeholder="Enter your password"
+              />
+            </div>
+          </div>
+          <div>
+            <input id="agree" type="checkbox" name="remember" value="Y" />
+            <label for="agree"> Remember Me </label>
+          </div>
+          <div>
+            <button id="loginButton" name="login">Login</button>
+          </div>
+          <div id="forgotpwlink">
+            <a>Forgot Password</a>
+          </div>
+        </div>
+      </form>
+    </main>
+    <!-- </div> -->
+  </body>
+</html>

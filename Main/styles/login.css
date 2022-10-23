@@ -1,0 +1,43 @@
+#LoginMain{
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+align-content: center;
+
+}
+#LoginMain div{
+    margin: 1rem 1rem 2rem 0rem;
+}
+#centerContent{
+    padding: 3rem;
+    margin: 0rem;
+    border: solid 0.05rem;
+    border-radius: 1rem;
+
+}
+
+#loginTitle{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#loginButton{
+    padding:0.5rem 7rem;
+    margin:1rem;
+    border-radius: 1rem;
+}
+
+.input1{
+    border-color: transparent;
+    outline:none;
+    /* outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none; */
+    margin: 0.5rem;
+}
+.iconInput{
+    border-bottom: solid;
+    /* margin: 0rem; */
+}
