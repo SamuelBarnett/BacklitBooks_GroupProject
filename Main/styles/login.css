@@ -6,15 +6,18 @@ flex-direction: column;
 align-content: center;
 
 }
+#loginBody{
+    background-image: linear-gradient(to left,#D58936, #69140E);
+}
 #LoginMain div{
     margin: 1rem 1rem 2rem 0rem;
+    background-color: aliceblue;
 }
 #centerContent{
     padding: 3rem;
     margin: 0rem;
     border: solid 0.05rem;
     border-radius: 1rem;
-
 }
 
 #loginTitle{
@@ -30,14 +33,37 @@ align-content: center;
 
 .input1{
     border-color: transparent;
-    outline:none;
+    outline: none;
     /* outline-style: none;
     border-top: none;
     border-left: none;
     border-right: none; */
     margin: 0.5rem;
+    background-color: aliceblue;
 }
 .iconInput{
     border-bottom: solid;
     /* margin: 0rem; */
 }
+#loginButton{
+    border: none;
+    background-color: #69140E;
+    color: white;
+}
+.flexed{
+    display: flex;
+}
+#forgotpwlink{
+    margin-left: 4rem;
+    font-style: italic;
+}
+#loginLogo{
+    max-width: fit-content;
+    font-size: 2rem;
+    font-weight: 600;
+    color: aliceblue;
+    /* border: solid #69140E; */
+    margin: 1rem;
+}
+
+
