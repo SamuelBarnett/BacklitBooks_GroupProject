@@ -7,17 +7,18 @@ align-content: center;
 
 }
 #loginBody{
-    background-image: linear-gradient(to left,#D58936, #69140E);
+    background-image: linear-gradient(to left,var(--Background-light), var(--Background-dark));
 }
 #LoginMain div{
     margin: 1rem 1rem 2rem 0rem;
-    background-color: aliceblue;
+    background-color: var(--Background-blueWhite);
 }
 #centerContent{
     padding: 3rem;
     margin: 0rem;
     border: solid 0.05rem;
     border-radius: 1rem;
+    box-shadow: 20px black;
 }
 
 #loginTitle{
@@ -31,15 +32,11 @@ align-content: center;
     border-radius: 1rem;
 }
 
-.input1{
+.loginInput{
     border-color: transparent;
     outline: none;
-    /* outline-style: none;
-    border-top: none;
-    border-left: none;
-    border-right: none; */
     margin: 0.5rem;
-    background-color: aliceblue;
+    background-color: var(--Background-blueWhite);
 }
 .iconInput{
     border-bottom: solid;
@@ -47,8 +44,8 @@ align-content: center;
 }
 #loginButton{
     border: none;
-    background-color: #69140E;
-    color: white;
+    background-color: var(--Background-dark);
+    color: var(--Background-blueWhite);
 }
 .flexed{
     display: flex;
@@ -61,7 +58,7 @@ align-content: center;
     max-width: fit-content;
     font-size: 2rem;
     font-weight: 600;
-    color: aliceblue;
+    color: var(--Background-blueWhite);
     /* border: solid #69140E; */
     margin: 1rem;
 }
