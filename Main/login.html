@@ -12,8 +12,9 @@
     <title>Login page</title>
   </head>
 
-  <body>
+  <body id="loginBody">
     <!-- <div class="flex"> -->
+      <h1 id="loginLogo">Backlit Books</h1>
     <main id="LoginMain">
       <form method="post">
         <div id="centerContent">
@@ -27,7 +28,7 @@
                 id="username"
                 name="username"
                 type="text"
-                class="input1"
+                class="loginInput"
                 placeholder="Enter your username"
               />
             </div>
@@ -40,20 +41,18 @@
                 id="password"
                 name="password"
                 type="password"
-                class="input1"
+                class="loginInput"
                 placeholder="Enter your password"
               />
             </div>
           </div>
-          <div>
+          <div class="flexed">
             <input id="agree" type="checkbox" name="remember" value="Y" />
             <label for="agree"> Remember Me </label>
+            <a id="forgotpwlink" >Forgot Password?</a>
           </div>
           <div>
             <button id="loginButton" name="login">Login</button>
-          </div>
-          <div id="forgotpwlink">
-            <a>Forgot Password</a>
           </div>
         </div>
       </form>
