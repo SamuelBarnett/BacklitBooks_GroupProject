@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/53a095ce36.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login page</title>
+  </head>
+
+  <body id="loginBody">
+    <!-- <div class="flex"> -->
+    <h1 id="loginLogo">Backlit Books</h1>
+    <main id="LoginMain">
+      <form method="post">
+        <div id="centerContent">
+          <h2 id="loginTitle">Sign up</h2>
+          <div>
+            <!-- Input for user to put their username -->
+            <label for="username">Username</label>
+            <div class="iconInput">
+              <span><i class="fa-solid fa-user"></i></span>
+              <input
+                id="username"
+                name="username"
+                type="text"
+                class="loginInput"
+                placeholder="Enter a valid username"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <div class="iconInput">
+              <span><i class="fa-solid fa-lock"></i></span>
+              <input
+                id="password"
+                name="password"
+                type="password"
+                class="loginInput"
+                placeholder="Enter a valid password"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <div class="iconInput">
+              <span><i class="fa-solid fa-lock"></i></span>
+              <input
+                id="password"
+                name="password"
+                type="password"
+                class="loginInput"
+                placeholder="Re-enter your password"
+              />
+            </div>
+          </div>
+          <div class="flexed">
+            <input id="agree" type="checkbox" name="remember" value="Y" />
+            <label for="agree"> Remember Me </label>
+            <a id="forgotpwlink">Forgot Password?</a>
+          </div>
+          <div>
+            <button id="loginButton" name="login">Sign Up</button>
+          </div>
+          <div>
+            <a id="switchPage" href="Login.php">Already have an account? Login.</a>
+          </div>
+        </div>
+      </form>
+    </main>
+    <!-- </div> -->
+  </body>
+</html>
