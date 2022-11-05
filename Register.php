@@ -99,7 +99,7 @@ if (count($errors) === 0){
           <div class="iconInput">
             <span><i class="fa-solid fa-lock"></i></span>
             <input id="password" name="password" type="password" class="loginInput" placeholder="Enter a valid password" />
-            <span class="errors <?= !isset($errors['password']) ? 'hidden' : "" ?>">Please enter a valid username</span>
+            <span class="errors <?= !isset($errors['password']) ? 'hidden' : "" ?>">Please enter a valid password</span>
 
           </div>
         </div>
