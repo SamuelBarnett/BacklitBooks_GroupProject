@@ -1,8 +1,4 @@
-<!-- This html was just a placeholder in order for me to test that the database connection works  -->
-<!-- WHOMEVER IS WORKING ON THE FRONT END NEEDS TO REPLACE THIS -->
 <?php
-
-
 
   $errors = array();
   $username = $_POST['username'] ?? null;
@@ -10,12 +6,10 @@
   $password = $_POST['password'] ?? null;
   $firstName = $_POST['firstName'] ?? null;
   $lastName = $_POST['lastName'] ?? null;
-  $streetNum = $_POST['streetNum'] ?? null;
-
 
   require 'DBconnection.php';
   // establish connection
-  $pdo = connectDB();
+  // $pdo = connectDB();
 // If the form is submitting perform the operations in the brackets.
 if (isset($_POST['register'])) {
 
@@ -37,23 +31,14 @@ if (strlen($password) === 0) {
 
 
 
-
 if (count($errors) === 0){
 
   // declare variable and grab by form element name
-  
-  // if we end up including address info in the database uncomment the next line
-  /*
-        $addr = $_POST['addr'];
-        $city = $_POST['city'];
-        $prov = $_POST['prov'];
-        $pcode = $_POST['pcode'];
-        */
 
   // hash the password and store it
   $hashedPSW = password_hash($password, PASSWORD_DEFAULT);
 
-  // sql query to insert into the users table
+  // sql query to insert dinto the users table
   $sql = "INSERT INTO users (Username, psw, email, FName, LName) VALUES (? , ?, ? , ? , ?);";
   $stmt = $pdo->prepare($sql);
   $stmt->execute([$uname, $hashedPSW, $email, $fname, $lname]);
