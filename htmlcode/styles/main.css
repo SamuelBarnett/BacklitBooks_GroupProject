@@ -11,9 +11,9 @@
     --text-color-nav: black;
     /* login colors */
       font-family: Garamond, serif;
-    --Background-light: #D58936;
-    --Background-dark: #69140E;
-    --Background-blueWhite: aliceblue;
+    --Background-light: #7c7B72;
+    --Background-dark: #9BC4CB;
+    --Background-blueWhite: #C8CCCA;
 }
 .hidden{
     display: none;
@@ -25,6 +25,7 @@ align-items: center;
 justify-content: space-around;
 background-color: var(--Background-header); 
 color: var(--text-color-nav);
+
 }
 
 .nav label:hover{
