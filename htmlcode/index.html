@@ -17,22 +17,16 @@
       <div id="title">
         <!-- Will eventually be link to home page/index -->
         <h1>Backlit Books</h1>
-        <img
-          src="imgs/backlitbook.png"
-          alt="picture of a book"
-          width="75"
-          height="75"
-        />
       </div>
       <span> <i class="fa-solid fa-books"></i></span>
       <div class="nav">
         <label>Store</label>
         <label>My Library</label>
-        <label>My Account</label>
+        <label id="lastNav">My Account</label>
       </div>
       <div id="loginAndReg" class="nav">
-        <label>Login</label>
-        <label>Register</label>
+        <label><a href="login.html"> Login </a></label>
+        <label id="noBorder"><a href="Register.html">Register</a></label>
       </div>
     </div>
   </header>
@@ -40,16 +34,29 @@
     <main>
       <div id="indexDisplay">
         <div id="homeCenter">
-          <h1>BackLit Books</h1>
           <blockquote>
             Improve your browsing and shopping experience through Backlit Books.
-            This website aims to be a proof of concept of a what an e-commerce
-            website can be.
+          </blockquote>
+          <blockquote>
+            A proof of concept of a what an e-commerce website can be.
           </blockquote>
         </div>
       </div>
-      <div id="">
-        <img class="homeImage" src="" height="500" width="500">
+      <h1 class="subTitle">Recommendations</h1>
+      <div id="recommendations">
+        <img
+          class="homeImage"
+          src="imgs/davinci.jpg"
+          height="400"
+          width="250"
+        />
+        <img
+          class="homeImage"
+          src="imgs/harryPotter.jpg"
+          height="400"
+          width="250"
+        />
+        <img class="homeImage" src="imgs/1984.jpg" height="400" width="250" />
       </div>
     </main>
   </body>

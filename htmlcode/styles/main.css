@@ -6,42 +6,55 @@
 :root{
     font-size: 16px;
     /* header colors */
-    --Background-header: #380c0c;
+    --Background-header: white;
     --Background-nav: white;
-    --text-color-nav: white;
+    --text-color-nav: black;
     /* login colors */
+      font-family: Garamond, serif;
     --Background-light: #D58936;
     --Background-dark: #69140E;
     --Background-blueWhite: aliceblue;
 }
-
+.hidden{
+    display: none;
+}
+/* Header```````````````````````` */
 #header{
 display: flex;
 align-items: center; 
-/* background-color: ; */
-border-bottom: solid 0.15em;
 justify-content: space-around;
-/* padding: 0rem 5rem; */
 background-color: var(--Background-header); 
-color: var(--text-color-nav)
-
+color: var(--text-color-nav);
 }
+
+.nav label:hover{
+    color:#D58936
+}
+
+#lastNav{
+    border: none;
+}
+#noBorder{
+    border: none;
+}
+
 /* Title`````````````````````````` */
 #header h1{
     font-weight: 600;
     padding-right: 1rem;
-    font-size: 2rem;
+    font-size: 2.15rem;
     border-radius: 1em;
-    
+    padding: 1rem;
 }
 #title{
     display: flex;
     align-items: center;
 }
+
 /* /Title`````````````````````````` */
 
 .nav label{
-    margin: 0em 1em;
+    margin: 0em 0em 0em 1em;
     padding-right: 1rem;
     border-right: solid 0.05em var(--text-color-nav);
     font-size: 1.15rem;
@@ -50,13 +63,12 @@ color: var(--text-color-nav)
 .nav{
     padding-right: 1rem;
     padding: 1rem;
-    /* border: solid 0.05em rgb(82, 45, 3); */
     border-radius: 1em;
     display: flex;
     max-width: 30rem;
-    /* text-align: right; */
 }
 #loginAndReg{
-    background-color: var(--Background-nav);
-    color: var(--Background-header);
+    /* background-color: var(--Background-nav); */
+    /* color: var(--Background-header); */
 }
+
