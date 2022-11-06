@@ -27,8 +27,11 @@ background-color: var(--Background-header);
 color: var(--text-color-nav);
 
 }
-
-.nav label:hover{
+label a{
+    text-decoration: none;
+    color: black;
+}
+.nav label:hover, .nav label a:hover{
     color:#D58936
 }
 
@@ -67,9 +70,5 @@ color: var(--text-color-nav);
     border-radius: 1em;
     display: flex;
     max-width: 30rem;
-}
-#loginAndReg{
-    /* background-color: var(--Background-nav); */
-    /* color: var(--Background-header); */
 }
 

@@ -63,10 +63,10 @@ body::-webkit-scrollbar {
     padding: 2rem;
     text-align: center;
     border-bottom: solid;
+    margin-bottom: 10rem;
 }
 
 #recommendations{
-    border-bottom: ;
     display: flex;
     justify-content: center;
     align-items: center;
