@@ -4,7 +4,6 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 align-content: center;
-
 }
 #loginBody{
     background-image: linear-gradient(to left,var(--Background-light), var(--Background-dark));

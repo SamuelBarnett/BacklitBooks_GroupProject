@@ -1,8 +1,7 @@
 <?php
 session_start();
 
-$_SESSION['store'] = true;
-
+$searchbar = true;
 // include 'DBconnection.php';
 // $pdo = connectDB();
 
@@ -26,7 +25,7 @@ $_SESSION['store'] = true;
 
     <div class="content-wrapper">
         <div class="store-header">
-            <h2>Most popular</h2>
+            <h2>Most Popular</h2>
         </div>
         <!--`````````````````````` Displaying one book for design ``````````````````````````````````-->
         <div class="book-wrapper">
@@ -35,7 +34,7 @@ $_SESSION['store'] = true;
             </div>
             <table class="book-info">
                 <tr>
-                    <td><a href="Login.php">example link</a></td>
+                    <td ><a href="Login.php" class="title-link">example link</a></td>
                 </tr>
                 <tr>
                     <td>by Joe</td>

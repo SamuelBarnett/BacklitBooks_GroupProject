@@ -6,13 +6,14 @@
       <h1>Backlit Books</h1>
     </div>
     <span> <i class="fa-solid fa-books"></i></span>
-    <?php if (isset($_SESSION['store'])) : ?>
+    <?php if (isset($searchbar)) : ?>
       <form id="searchForm" action="Search.php" method="GET">
         <div id="searchBar">
-          <i class="fa-solid fa-magnifying-glass"></i>
           <input type="text" placeholder=" Search" name="search_term">
+          <button id="searchButton" type="submit" name="search" value="submit"> <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
-        <button id="searchButton" type="submit" name="search" value="submit">See all results</button>
+
       </form>
     <?php endif; ?>
 

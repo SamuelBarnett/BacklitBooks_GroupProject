@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
 session_start();
+$searchbar = true;
 
-$_SESSION['store'] = true;
 
 include 'DBconnection.php';
 $pdo = connectDB();
