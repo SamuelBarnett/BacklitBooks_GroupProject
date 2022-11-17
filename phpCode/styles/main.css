@@ -1,0 +1,74 @@
+@import "reset.css";
+@import "login.css";
+@import "home.css";
+
+
+:root{
+    font-size: 16px;
+    /* header colors */
+    --Background-header: white;
+    --Background-nav: white;
+    --text-color-nav: black;
+    /* login colors */
+      font-family: Garamond, serif;
+    --Background-light: #bc831a;
+    --Background-dark: #6d420a;
+    --Background-blueWhite: aliceblue;
+}
+.hidden{
+    display: none;
+}
+/* Header```````````````````````` */
+#header{
+display: flex;
+align-items: center; 
+justify-content: space-around;
+background-color: var(--Background-header); 
+color: var(--text-color-nav);
+
+}
+label a{
+    text-decoration: none;
+    color: black;
+}
+.nav label:hover, .nav label a:hover{
+    color:#D58936
+}
+
+#lastNav{
+    border: none;
+}
+#noBorder{
+    border: none;
+}
+
+/* Title`````````````````````````` */
+#header h1{
+    font-weight: 600;
+    padding-right: 1rem;
+    font-size: 2.15rem;
+    border-radius: 1em;
+    padding: 1rem;
+}
+#title{
+    display: flex;
+    align-items: center;
+}
+
+/* /Title`````````````````````````` */
+
+.nav label{
+    margin: 0em 0em 0em 1em;
+    padding-right: 1rem;
+    border-right: solid 0.05em var(--text-color-nav);
+    font-size: 1.15rem;
+}
+
+.nav{
+    padding-right: 1rem;
+    padding: 1rem;
+    border-radius: 1em;
+    display: flex;
+    max-width: 30rem;
+}
+
