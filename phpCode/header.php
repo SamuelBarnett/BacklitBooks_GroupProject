@@ -7,7 +7,7 @@
       </div>
       <span> <i class="fa-solid fa-books"></i></span>
       <div class="nav">
-        <label>Store</label>
+        <label> <a href="Storefront.php">Store</a></label>
         <label>My Library</label>
         <label id="lastNav">My Account</label>
       </div>
