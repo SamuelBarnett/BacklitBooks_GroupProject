@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "login.css";
 @import "home.css";
+@import "Storefront.css";
+
 
 
 :root{
@@ -71,4 +73,42 @@ label a{
     display: flex;
     max-width: 30rem;
 }
+
+/* Search Bar ```````````````````` */
+
+#searchBar{
+    outline: none;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(155, 152, 152, 0.27);
+    border-color: transparent;
+}
+#searchBar input{
+    outline: none;
+    border-radius: 1rem;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0.5rem;
+}
+
+#searchBar i {
+    padding-left: 1rem;
+}
+
+
+#searchButton{
+    outline: none;
+    margin: 0.5rem;
+    border: solid;
+    border-color: transparent;
+
+    border-radius: 1rem;
+}
+
+#searchForm{
+    display: flex;
+}
+
+
+/* /Search Bar ```````````````````` */
 

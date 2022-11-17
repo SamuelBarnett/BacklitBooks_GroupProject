@@ -1,4 +1,5 @@
 <?php
+session_unset();
 
 session_start();
 
@@ -69,7 +70,9 @@ if (isset($_POST['register'])) {
 
 <body id="loginBody">
   <!-- <div class="flex"> -->
-  <h1 id="loginLogo">Backlit Books</h1>
+  <?php
+  include 'header.php';
+  ?>
   <main id="LoginMain">
     <form method="post">
       <div id="centerContent">

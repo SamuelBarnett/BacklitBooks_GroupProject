@@ -1,7 +1,7 @@
 <!-- This html was just a placeholder in order for me to test that the database connection works  -->
 <!-- WHOMEVER IS WORKING ON THE FRONT END NEEDS TO REPLACE THIS -->
 <?php
-
+session_unset();
 require 'DBconnection.php';
 // require 'ECommerce.php';
 // create session

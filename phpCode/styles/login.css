@@ -9,17 +9,19 @@ align-content: center;
 #loginBody{
     background-image: linear-gradient(to left,var(--Background-light), var(--Background-dark));
 }
-#LoginMain div{
-    margin: 1rem 1rem 2rem 0rem;
-    background-color: var(--Background-blueWhite);
-}
-#centerContent{
+#centerContent {
     padding: 3rem;
-    margin: 0rem;
+    /* margin: 2rem !important; */
+    margin-top: 2rem !important;
     border: solid 0.05rem;
     border-radius: 1rem;
     box-shadow: 20px black;
 }
+#LoginMain div{
+    margin: 1rem 1rem 2rem 0rem;
+    background-color: var(--Background-blueWhite);
+}
+
 
 #loginTitle{
     font-size: 2rem;
