@@ -1,12 +1,13 @@
 <?php
 session_start();
-
+// if (isset($_SESSION['uID'])) {
+//     header("Location:index.php");
+//     exit();
+// }
 require 'DBconnection.php';
 // require 'ECommerce.php';
 // create session
 // initialize user ID and user name session objects
-$_SESSION['uID'] = "default";
-$_SESSION['username'] = "default";
 
 $SignedOut = true;
 

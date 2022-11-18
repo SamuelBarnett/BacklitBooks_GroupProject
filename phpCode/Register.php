@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+// if (isset($_SESSION['uID'])) {
+//     header("Location:index.php");
+//     exit();
+// }
 $errors = array();
 $username = $_POST['username'] ?? null;
 $email = $_POST['email'] ?? null;

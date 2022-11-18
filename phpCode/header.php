@@ -21,7 +21,7 @@
         <label class="lastNav">My Account</label>
       </div>
       <div class="nav">
-        <label class="lastNav"> <a href="Login.php">Sign Out</a></label>
+        <label class="lastNav"> <a href="Logout.php">Sign Out</a></label>
       </div>
     <?php endif; ?>
 

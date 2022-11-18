@@ -18,7 +18,7 @@
 .book-cover{
     width: 175px;
     height: 225px;
-    border: 2px solid #620500;
+    border: 2px solid rgb(222,184,135);
     box-shadow: 0  5px 10px 2px rgba(2, 0, 0, 0.515);
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +28,6 @@
 .book-cover:hover{
     width: 180px;
     height: 230px;
-    border: 2px solid #620500;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
