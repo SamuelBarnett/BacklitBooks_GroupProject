@@ -1,9 +1,9 @@
 <?php
 
-if (!isset($_SESSION['uID'])) {
-    header("Location:Login.php");
-    exit();
-}
+// if (!isset($_SESSION['uID'])) {
+//     header("Location:Login.php");
+//     exit();
+// }
 
 // sql for most popular
 $sql = "SELECT * FROM books LIMIT 5;";

@@ -1,10 +1,9 @@
-<!-- This html was just a placeholder in order for me to test that the database connection works  -->
-<!-- WHOMEVER IS WORKING ON THE FRONT END NEEDS TO REPLACE THIS -->
 <?php
+session_start();
+
 require 'DBconnection.php';
 // require 'ECommerce.php';
 // create session
-session_start();
 // initialize user ID and user name session objects
 $_SESSION['uID'] = "default";
 $_SESSION['username'] = "default";
@@ -118,29 +117,3 @@ if (isset($_POST['login'])) {
 </body>
 
 </html>
-
-<!-- <html lang="en">
-
-	<head>
-		<title> Login test v2 </title>
-	</head>
-
-	<body>
-
-		<form method = "POST" action="Login.php">
-			<table>
-				<tr>
-					<td>Username</td>
-					<td><input type="text" placeholder="Enter Username" name="username" required></td>
-				</tr>
-				<tr>
-					<td>Password</td>
-					<td><input type="password" placeholder="Enter Password" name="psw" required></td>
-				</tr>
-			</table>
-			<button type="submit" name="login" value="submit" >Login</button>
-		</form>
-
-	</body>
-
-</html> -->

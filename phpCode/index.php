@@ -1,4 +1,10 @@
 <?php
+session_start();
+if (!isset($_SESSION['uID'])) {
+    header("Location:Login.php");
+    exit();
+}
+
 
 ?>
 

@@ -2,7 +2,7 @@
   <div id="header">
     <div id="title">
       <!-- Will eventually be link to home page/index -->
-      <h1>Backlit Books</h1>
+      <h1><a href="index.php">Backlit Books</a></h1>
     </div>
     <span> <i class="fa-solid fa-books"></i></span>
     <?php if (isset($searchbar)) : ?>
@@ -16,11 +16,15 @@
     <?php endif; ?>
     <?php if (!isset($SignedOut)) : ?>
       <div class="nav">
-        <label> <a href="Storefront.php">Store</a></label>
+        <label> <a href="storeTest.php">Store</a></label>
         <label>My Library</label>
-        <label id="lastNav">My Account</label>
+        <label class="lastNav">My Account</label>
+      </div>
+      <div class="nav">
+        <label class="lastNav"> <a href="Login.php">Sign Out</a></label>
       </div>
     <?php endif; ?>
+
     <?php if (isset($SignedOut)) : ?>
       <div id="loginAndReg" class="nav">
         <label><a href="Login.php"> Login </a></label>

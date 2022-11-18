@@ -30,7 +30,7 @@ background-color: var(--Background-header);
 color: var(--text-color-nav);
 
 }
-label a{
+label a, h1 a{
     text-decoration: none;
     color: black;
 }
@@ -38,8 +38,9 @@ label a{
     color:#D58936
 }
 
-#lastNav{
-    border: none;
+.lastNav{
+    border: none !important;
+    margin: 10rem;
 }
 #noBorder{
     border: none;
@@ -47,11 +48,13 @@ label a{
 
 /* Title`````````````````````````` */
 #header h1{
+    text-decoration:none;
     font-weight: 600;
     padding-right: 1rem;
     font-size: 2.15rem;
     border-radius: 1em;
     padding: 1rem;
+    color:black;
 }
 #title{
     display: flex;
@@ -65,6 +68,7 @@ label a{
     padding-right: 1rem;
     border-right: solid 0.05em var(--text-color-nav);
     font-size: 1.15rem;
+    
 }
 
 .nav{
@@ -74,4 +78,8 @@ label a{
     display: flex;
     max-width: 30rem;
 }
-
+/* #titleDisplay{
+    
+    font-weight: 600;
+    font-size: 1.2rem;
+} */
