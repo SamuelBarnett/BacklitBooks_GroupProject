@@ -1,5 +1,4 @@
 <header>
-  <!-- Delete later  -->
   <div id="header">
     <div id="title">
       <!-- Will eventually be link to home page/index -->
@@ -13,22 +12,20 @@
           <button id="searchButton" type="submit" name="search" value="submit"> <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
-
       </form>
     <?php endif; ?>
-
-
-    <?php if (isset($_SESSION['id'])) : ?>
-
+    <?php if (!isset($SignedOut)) : ?>
       <div class="nav">
         <label> <a href="Storefront.php">Store</a></label>
         <label>My Library</label>
         <label id="lastNav">My Account</label>
       </div>
     <?php endif; ?>
-    <div id="loginAndReg" class="nav">
-      <label><a href="Login.php"> Login </a></label>
-      <label id="noBorder"><a href="Register.php">Register</a></label>
-    </div>
+    <?php if (isset($SignedOut)) : ?>
+      <div id="loginAndReg" class="nav">
+        <label><a href="Login.php"> Login </a></label>
+        <label id="noBorder"><a href="Register.php">Register</a></label>
+      </div>
+    <?php endif; ?>
   </div>
 </header>

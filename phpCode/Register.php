@@ -1,6 +1,4 @@
 <?php
-session_unset();
-
 session_start();
 
 $errors = array();
@@ -10,6 +8,8 @@ $password = $_POST['password'] ?? null;
 $passwordCheck = $_POST['passwordCheck'] ?? null;
 $firstName = $_POST['firstName'] ?? null;
 $lastName = $_POST['lastName'] ?? null;
+
+$SignedOut = true;
 
 require 'DBconnection.php';
 // establish connection

@@ -14,8 +14,8 @@
     --text-color-nav: black;
     /* login colors */
       font-family: Garamond, serif;
-    --Background-light: #bc831a;
-    --Background-dark: #6d420a;
+    --Background-light: #D58936;
+    --Background-dark: #69140E;
     --Background-blueWhite: aliceblue;
 }
 .hidden{

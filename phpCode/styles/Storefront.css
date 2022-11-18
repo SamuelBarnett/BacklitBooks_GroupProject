@@ -37,6 +37,7 @@
     margin-left: auto;
     margin: auto;
     text-align: center;
+    font-weight: 600;
 }
 .store-header{
     width: 100%;
@@ -50,6 +51,7 @@
 .title-link{
     text-decoration:none;
     color:black;
+    font-weight: 600;
     font-size: 1.2rem;
 }
 .title-link:hover{
@@ -82,9 +84,9 @@
     padding: 0.5rem;
 }
 
-#searchBar i {
+/* #searchBar i {
     padding-left: 1rem;
-}
+} */
 
 #searchButton{
     outline: none;
@@ -92,7 +94,10 @@
     border-color: transparent;
     border-radius: 1rem;
     background-color: transparent;
+}
 
+#searchButton:hover{
+    background-color: rgba(155, 152, 152, 0.27);
 }
 
 #searchForm{
