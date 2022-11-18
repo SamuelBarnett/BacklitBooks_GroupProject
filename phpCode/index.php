@@ -1,8 +1,8 @@
 <?php
 session_start();
 if (!isset($_SESSION['uID'])) {
-    header("Location:Login.php");
-    exit();
+  header("Location:Login.php");
+  exit();
 }
 
 
@@ -36,7 +36,9 @@ include 'header.php';
         </blockquote>
       </div>
     </div>
-    <h1 class="subTitle">Recommendations</h1>
+    <div id="homeFade">
+      <h1 class="subTitle">Recommendations</h1>
+    </div>
     <div id="recommendations">
       <div class="homeImage">
         <img src="imgs/davinci.jpg" height="400" width="250" />
