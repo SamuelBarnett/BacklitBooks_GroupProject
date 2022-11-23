@@ -68,7 +68,7 @@ switch ($location){
 							<!--  ADD LINK TO HOME PAGE BELOW */ -->
 							<?php if($location == "Delete"):?>
 							<a href="DeleteAccount.php" class="btn btn-primary mt-2">Yes I'm sure</a>
-                            <a href="UserAccount.php" class="btn btn-primary mt-2">On second though...</a>
+                            <a href="UserAccount.php" class="btn btn-primary mt-2">On second thought...</a>
 							<?php elseif ($location == "DeletedAcc"): ?>
 							<a href="Logout.php" class="btn btn-primary mt-2">home</a>
 							<?php elseif ($location == "Library"): ?>

@@ -51,11 +51,13 @@ if (isset($_POST['login'])) {
           header("Location:Store.php");
         } else {
           // else display invalid password error message
-          echo "invalid password";
+          $errors['psw'] = true;
         }
       } else if ($row['UserName'] == null) {
         // else display invalid username error message
-        echo "invalid username";
+        $errors['username'] = true;
+      }else{
+        $errors['username'] = true;
       }
     }
     // close the connection
@@ -82,7 +84,7 @@ if (isset($_POST['login'])) {
     include 'header.php';
     ?>
   <main id="LoginMain">
-    <form method="post">
+    <form method="post" action="login.php">
       <div id="centerContent">
         <h2 id="loginTitle">Login</h2>
         <div>

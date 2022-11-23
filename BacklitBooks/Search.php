@@ -81,7 +81,7 @@ function search($term,$i,$rows){
             */
 
             default:
-                echo "Search term not found";
+                $err =  "Search term not found";
     }
 }
 
